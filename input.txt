@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+
+
+int main() {
+	int a, c;
+	printf("Enter a value: "); scanf("%d", &a); c = a; printf("After assigning a value to c, c value is: %d\n", c); c += a; printf("+= Value of c: %d\n", c); c -= a; printf("-= Value of c: %d\n", c); c *= a; printf("*= Value of c: %d\n", c); c /= a; printf("/= Value of c: %d\n", c); c >>= a; printf(">>= Value of c: %d\n", c); c &= a; printf("&= Value of c: %d\n", c); c ^= a; printf("^= Value of c: %d\n", c); c |= a; printf("|= Value of c: %d\n", c); return 1;
+}
